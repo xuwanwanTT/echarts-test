@@ -92,7 +92,7 @@ test3.setOption({
 })
 test3.showLoading()
 setTimeout(function(){
-  $.get('../data.json').done(function(data){
+  $.get('src/data.json').done(function(data){
     test3.hideLoading()
     test3.setOption({
       xAxis: {
